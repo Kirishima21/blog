@@ -2,21 +2,82 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.root{
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.containar{
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.Pagetitle{
+  flex: 15 0;
+  background: blue;
+  text-align: center;
+}
+
+.Pagetitle.h1{
+}
+
+.Navigation{
+  flex: 5 0;
+  background: red;
+  display: flex;
+}
+
+.NavigationMenu{
+  flex: 1 1;
+  text-align: center;
+  display: inline-flex;
+}
+
+.top{
+  flex: 1 1;
+}
+
+.about{
+  flex: 1 1;
+}
+
+.product{
+  flex: 1 1;
+}
+
+.blog{
+  flex: 1 1;
+}
+
+.contact{
+  flex: 1 1;
+}
+
+.Contents{
+  flex: 65 0;
+  background: green;
+  display: flex;
+}
+
+.ContentsAria{
+  flex: 1 1;
+  text-align: center;
+  display: inline-flex;
+}
+
+.MainAria{
+  flex: 8 8;
+  background: green;
+}
+
+.SubAria{
+  flex: 2 2;
+  background: skyblue;
+}
+
+.Footer{
+  flex: 15 0;
+  background: yellow;
 }
