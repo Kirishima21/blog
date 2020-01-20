@@ -1,83 +1,83 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.root{
-  width: 100vw;
-  height: 100vh;
+.root {
+    width: 100vw;
+    height: 100vh;
 }
 
-.containar{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+.containar {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.Pagetitle{
-  flex: 15 0;
-  background: blue;
-  text-align: center;
+.Pagetitle {
+    flex: 15 0;
+    background: blue;
+    text-align: center;
 }
 
-.Pagetitle.h1{
+.Pagetitle.h1 {
 }
 
-.Navigation{
-  flex: 5 0;
-  background: red;
-  display: flex;
+.Navigation {
+    flex: 5 0;
+    background: red;
+    display: flex;
 }
 
-.NavigationMenu{
-  flex: 1 1;
-  text-align: center;
-  display: inline-flex;
+.NavigationMenu {
+    flex: 1 1;
+    text-align: center;
+    display: inline-flex;
 }
 
-.top{
-  flex: 1 1;
+.top {
+    flex: 1 1;
 }
 
-.about{
-  flex: 1 1;
+.about {
+    flex: 1 1;
 }
 
-.product{
-  flex: 1 1;
+.product {
+    flex: 1 1;
 }
 
-.blog{
-  flex: 1 1;
+.blog {
+    flex: 1 1;
 }
 
-.contact{
-  flex: 1 1;
+.contact {
+    flex: 1 1;
 }
 
-.Contents{
-  flex: 65 0;
-  background: green;
-  display: flex;
+.Contents {
+    flex: 65 0;
+    background: green;
+    display: flex;
 }
 
-.ContentsAria{
-  flex: 1 1;
-  text-align: center;
-  display: inline-flex;
+.ContentsAria {
+    flex: 1 1;
+    text-align: center;
+    display: inline-flex;
 }
 
-.MainAria{
-  flex: 8 8;
-  background: green;
+.MainAria {
+    flex: 8 8;
+    background: green;
 }
 
-.SubAria{
-  flex: 2 2;
-  background: skyblue;
+.SubAria {
+    flex: 2 2;
+    background: skyblue;
 }
 
-.Footer{
-  flex: 15 0;
-  background: yellow;
+.Footer {
+    flex: 15 0;
+    background: yellow;
 }

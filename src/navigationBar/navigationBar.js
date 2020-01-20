@@ -1,26 +1,24 @@
 import React from "react";
-import store from "../store";
-
-import { connect } from 'react-redux'
+import {Actions} from "../actions";
 
 const top = function () {
-  store.dispatch({type: 'TOP'})
+  Actions.changePageTop()
 }
 
 const about = function () {
-  store.dispatch({type: 'ABOUT'})
+  Actions.changePageAbout()
 }
 
 const product = function () {
-  store.dispatch({type: 'PRODUCT'})
+  Actions.changePageProduct()
 }
 
 const blog = function () {
-  store.dispatch({type: 'BLOG'})
+  Actions.changePageBlog()
 }
 
 const contact = function () {
-  store.dispatch({type: 'CONTACT'})
+  Actions.changePageContact()
 }
 
 class NavigationBar extends React.Component {

@@ -1,24 +1,31 @@
-import React from "react";
-import store from '../../store'
-import { connect } from 'react-redux'
+import React from "react"
+import {pageStore} from "../../store";
 
 class MainAria extends React.Component{
   constructor(props){
     super(props);
 
     this.state ={
-      viewPages: store.getState()
+      page: pageStore.page
     }
+
+    pageStore.onChange = () => {
+      this.setState({page: pageStore.page})
+    }
+
   }
 
   render(){
     return(
       <div className="MainAria" >
         MainAria <br />
+        {this.state.page}を表示します
+        {/*
         {store.getState()}
-        {this.props.viewPages}を表示します
+        {this.state.page}を表示します
         <input type="button" value="this.state.viewPages" onClick={() => console.log(this.props.viewPages)}></input>
         <input type="button" value="store.getState" onClick={() => console.log(store.getState())}></input>
+        */}
       </div>
     )
   }
