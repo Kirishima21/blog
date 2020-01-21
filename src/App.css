@@ -4,21 +4,15 @@
 
 .root {
     width: 100vw;
-    height: 100vh;
-}
-
-.titleImage{
-    width: 100%;
 }
 
 .containar {
-    width: 100%;
-    height: 100%;
     min-width: 100%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url('https://kirishima21.github.io/blog/1375995.jpg');
+    /*background-image: url('https://kirishima21.github.io/blog/1375995.jpg');*/
+    background-image: url('http://localhost:3000/549656.png');
     background-repeat: repeat;
     background-attachment : fixed;
 }
@@ -31,7 +25,6 @@
 
 .Navigation {
     flex: 5 0;
-
     display: flex;
 }
 
@@ -63,7 +56,6 @@
 
 .Contents {
     flex: 65 0;
-
     display: flex;
 }
 
@@ -79,7 +71,6 @@
 
 .SubAria {
     flex: 2 2;
-
 }
 
 .Footer {
@@ -87,8 +78,20 @@
 
 }
 
+@media screen and (min-width: 801px) {
+
+    .titleImage{
+        width: 100%;
+        height: 200px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .SubAria {
         display: none;
+    }
+
+    .titleImage{
+        width: 100%;
     }
 }

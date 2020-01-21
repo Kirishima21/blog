@@ -20,7 +20,7 @@ class MainAria extends React.Component{
       <div className="MainAria" >
         MainAria <br />
         {this.state.page}を表示します
-        MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />
+        MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />
       </div>
     )
   }
