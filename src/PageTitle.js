@@ -7,13 +7,7 @@ class PageTitle extends React.Component {
   render() {
     return (
       <div>
-        <b>
-          <i>
-            <h1>
-              霧 島 ひ な た の お 部 屋
-            </h1>
-          </i>
-        </b>
+        <img className="titleImage" src="title.svg" />
       </div>
     )
   }

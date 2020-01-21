@@ -1,5 +1,5 @@
 import React from "react"
-import {pageStore} from "../../store";
+import {pageStore} from "../../store"
 
 class MainAria extends React.Component{
   constructor(props){
@@ -20,12 +20,7 @@ class MainAria extends React.Component{
       <div className="MainAria" >
         MainAria <br />
         {this.state.page}を表示します
-        {/*
-        {store.getState()}
-        {this.state.page}を表示します
-        <input type="button" value="this.state.viewPages" onClick={() => console.log(this.props.viewPages)}></input>
-        <input type="button" value="store.getState" onClick={() => console.log(store.getState())}></input>
-        */}
+        MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />MainAria <br />
       </div>
     )
   }

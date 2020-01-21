@@ -7,25 +7,31 @@
     height: 100vh;
 }
 
+.titleImage{
+    width: 100%;
+}
+
 .containar {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
+    background-image: url('http://localhost:3000/1375995.jpg');
+    background-repeat: repeat;
+    background-attachment : fixed;
 }
 
 .Pagetitle {
     flex: 15 0;
-    background: blue;
-    text-align: center;
-}
 
-.Pagetitle.h1 {
+    text-align: center;
 }
 
 .Navigation {
     flex: 5 0;
-    background: red;
+
     display: flex;
 }
 
@@ -57,7 +63,7 @@
 
 .Contents {
     flex: 65 0;
-    background: green;
+
     display: flex;
 }
 
@@ -69,15 +75,20 @@
 
 .MainAria {
     flex: 8 8;
-    background: green;
 }
 
 .SubAria {
     flex: 2 2;
-    background: skyblue;
+
 }
 
 .Footer {
     flex: 15 0;
-    background: yellow;
+
+}
+
+@media screen and (max-width: 800px) {
+    .SubAria {
+        display: none;
+    }
 }
