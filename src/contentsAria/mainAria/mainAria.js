@@ -1,5 +1,6 @@
 import React from "react"
-import {pageStore} from "../../store"
+import { connect } from 'react-redux';
+import store from "../../store";
 
 /*それぞれのコンテンツのインポート*/
 import About from "../contents/about/about";
@@ -12,29 +13,24 @@ class MainAria extends React.Component{
   constructor(props){
     super(props);
 
-    this.state ={
-      page: pageStore.page
-    }
-
-    pageStore.onChange = () => {
-      this.setState({page: pageStore.page})
-    }
-
   }
 
   render(){
 
     let view
-    if (this.state.page === "top"){
+    let x = store.getState()
+    if (x === "top"){
       view = <Top/>
-    } else if (this.state.page === "about"){
+    } else if (x === "about"){
       view = <About/>
-    } else if (this.state.page === "product"){
+    } else if (x === "product"){
       view = <Product/>
-    } else if (this.state.page === "blog"){
+    } else if (x === "blog"){
       view = <Blog/>
-    } else if (this.state.page === "contact"){
+    } else if (x === "contact"){
       view = <Contact/>
+    } else {
+      view = "なにもないよ？"
     }
 
     return(
@@ -47,4 +43,8 @@ class MainAria extends React.Component{
   
 }
 
-export default MainAria;
+function mapStateToProps(state) {
+  return {state};
+}
+
+export default connect(mapStateToProps)(MainAria);
