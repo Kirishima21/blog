@@ -1,34 +1,27 @@
-import {appDispatcher} from "./appDispatcher";
+import {createStore, combineReducers } from "redux";
 
-export const pageStore = { page: "top", onChange: null}
-
-export const ActionType = {
-  CHANGE_PAGE_TOP: "CHANGE_PAGE_TOP",
-  CHANGE_PAGE_ABOUT: "CHANGE_PAGE_ABOUT",
-  CHANGE_PAGE_PRODUCT: "CHANGE_PAGE_PRODUCT",
-  CHANGE_PAGE_BLOG: "CHANGE_PAGE_BLOG",
-  CHANGE_PAGE_CONTACT: "CHANGE_PAGE_CONTACT"
+export const reducers = (state = "top", action)=> {
+  switch (action.type) {
+    case 'TOP':
+      console.log("top動きました")
+      return  state = "top"
+    case 'ABOUT':
+      console.log("about動きました")
+      return state = "about"
+    case 'PRODUCT':
+      console.log("product動きました")
+      return state = "product"
+    case 'BLOG':
+      console.log("blog動きました")
+      return state = "blog"
+    case 'CONTACT':
+      console.log("contact動きました")
+      return state = "contact"
+    default:
+      return state
+  }
 }
 
-appDispatcher.register(payload => {
-  if(payload.actionType === ActionType.CHANGE_PAGE_TOP) {
-    pageStore.page = "top"
-    pageStore.onChange()
-  }
-  if(payload.actionType === ActionType.CHANGE_PAGE_ABOUT) {
-    pageStore.page = "about"
-    pageStore.onChange()
-  }
-  if(payload.actionType === ActionType.CHANGE_PAGE_PRODUCT) {
-    pageStore.page = "product"
-    pageStore.onChange()
-  }
-  if(payload.actionType === ActionType.CHANGE_PAGE_BLOG) {
-    pageStore.page = "blog"
-    pageStore.onChange()
-  }
-  if(payload.actionType === ActionType.CHANGE_PAGE_CONTACT) {
-    pageStore.page = "contact"
-    pageStore.onChange()
-  }
-})
+const store = createStore(reducers)
+
+export default store;

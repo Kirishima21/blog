@@ -1,24 +1,25 @@
-import React from "react";
-import {Actions} from "../actions";
+import React from "react"
+import store from "../store"
+import {changePageAbout, changePageBlog, changePageContact, changePageProduct, changePageTop} from "../actionCreater";
 
 const top = function () {
-  Actions.changePageTop()
+  store.dispatch(changePageTop())
 }
 
 const about = function () {
-  Actions.changePageAbout()
+  store.dispatch(changePageAbout())
 }
 
 const product = function () {
-  Actions.changePageProduct()
+  store.dispatch(changePageProduct())
 }
 
 const blog = function () {
-  Actions.changePageBlog()
+  store.dispatch(changePageBlog())
 }
 
 const contact = function () {
-  Actions.changePageContact()
+  store.dispatch(changePageContact())
 }
 
 class NavigationBar extends React.Component {
@@ -48,5 +49,7 @@ class NavigationBar extends React.Component {
     )
   }
 }
+
+
 
 export default NavigationBar ;
