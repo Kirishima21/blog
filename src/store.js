@@ -1,4 +1,4 @@
-import {createStore, combineReducers } from "redux";
+import {createStore} from "redux";
 
 export const reducers = (state = "top", action)=> {
   switch (action.type) {

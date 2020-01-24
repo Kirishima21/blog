@@ -1,5 +1,5 @@
 import React from "react"
-import { connect } from 'react-redux';
+import {connect} from 'react-redux';
 import store from "../../store";
 
 /*それぞれのコンテンツのインポート*/
@@ -30,7 +30,7 @@ class MainAria extends React.Component{
     } else if (x === "contact"){
       view = <Contact/>
     } else {
-      view = "なにもないよ？"
+      view = "なにかしらの問題が発生しました。ページのリロードをお願いします"
     }
 
     return(
@@ -44,7 +44,7 @@ class MainAria extends React.Component{
 }
 
 function mapStateToProps(state) {
-  return {state};
+  return {state}
 }
 
 export default connect(mapStateToProps)(MainAria);
