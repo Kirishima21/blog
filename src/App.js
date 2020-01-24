@@ -9,16 +9,16 @@ function App() {
   return (
     <div className="containar">
       <div className="Pagetitle">
-        <PageTitle />
+        <PageTitle/>
       </div>
       <div className="Navigation">
-        <NavigationBar />
+        <NavigationBar/>
       </div>
       <div className="Contents">
-        <ContentsAria />
+        <ContentsAria/>
       </div>
       <div className="Footer">
-        <Footer />
+        <Footer/>
       </div>
     </div>
   );

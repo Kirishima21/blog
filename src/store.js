@@ -1,10 +1,10 @@
 import {createStore} from "redux";
 
-export const reducers = (state = "top", action)=> {
+export const reducers = (state = "top", action) => {
   switch (action.type) {
     case 'TOP':
       console.log("top動きました")
-      return  state = "top"
+      return state = "top"
     case 'ABOUT':
       console.log("about動きました")
       return state = "about"

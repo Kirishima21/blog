@@ -1,7 +1,9 @@
-body{
+@import "style/contact.css";
+
+body {
     background-image: url('https://kirishima21.github.io/blog/1423199.png');
     background-repeat: repeat;
-    background-attachment : fixed;
+    background-attachment: fixed;
 }
 
 .App {
@@ -83,7 +85,7 @@ body{
 
 @media screen and (min-width: 801px) {
 
-    .titleImage{
+    .titleImage {
         width: 100%;
         height: 200px;
     }
@@ -94,7 +96,7 @@ body{
         display: none;
     }
 
-    .titleImage{
+    .titleImage {
         width: 100%;
     }
 }
