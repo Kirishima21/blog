@@ -1,6 +1,6 @@
 import React from 'react'
 import accountData from "./contactData";
-import ItemCard from "./itemCard";
+import ContactItemCard from "./itemCard";
 
 class Contact extends React.Component {
 
@@ -11,10 +11,11 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="contactAria">
+        <br />
         {accountData.map((data) => {
           return (
             <div>
-              <ItemCard
+              <ContactItemCard
                 img_src={data.img_src}
                 sns_name={data.sns_name}
                 account_name={data.account_name}
@@ -25,6 +26,16 @@ class Contact extends React.Component {
             </div>
           )
         })}
+        <div className="itemCard">
+          <div className="iconAria">
+            <img className="icon" src="http://localhost:3000/mail.png"/>
+          </div>
+          <div className="textAria">
+            <div className="mail">Gmail：ﾅｲｼｮﾀﾞﾖ！</div>
+            <div className="mail">Mail：mail@mail.kirishima.cloud</div>
+            <div className="mail">mastdon関連：mastodon@mail.kirishima.cloud</div>
+          </div>
+        </div>
       </div>
     )
   }

@@ -1,0 +1,246 @@
+div.red {
+     width: 30vw;
+     margin: auto;
+     padding: 10px;
+     background-color: rgba(255, 0, 0, 0.51);
+
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+}
+
+div.orange {
+    width: 30vw;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 129, 0, 0.51);
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+div.yellow {
+    width: 30vw;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 249, 0, 0.51);
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+div.green {
+    width: 30vw;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(0, 255, 18, 0.51);
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+div.blue {
+    width: 30vw;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(0, 255, 242, 0.5);
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+div.indigo {
+    width: 30vw;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(2, 0, 255, 0.51);
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+div.purple {
+    width: 30vw;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(199, 0, 255, 0.51);
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+div.textAria {
+    margin: auto;
+    text-align: center;
+}
+
+div.title{
+    font-size: 150%;
+}
+
+div.name{
+    font-size: 120%;
+}
+
+/*解像度が低い場合の設定*/
+
+@media screen and (max-width: 1600px) {
+
+    div.red {
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(255, 0, 0, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.orange {
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(255, 129, 0, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.yellow {
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(255, 249, 0, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.green {
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 255, 18, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.blue {
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 255, 242, 0.5);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.indigo {
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(2, 0, 255, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.purple {
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(199, 0, 255, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    div.red {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(255, 0, 0, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.orange {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(255, 129, 0, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.yellow {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(255, 249, 0, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.green {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 255, 18, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.blue {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 255, 242, 0.5);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.indigo {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(2, 0, 255, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    div.purple {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(199, 0, 255, 0.51);
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+}

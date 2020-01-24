@@ -9,7 +9,7 @@ class Blog extends React.Component{
   render() {
     return(
       <div>
-        ここにBlogが表示されます
+        Rustでブログ部分のバックエンドが出来上がるまではブログが書かれることはないと思いますｗ
       </div>
     )
   }

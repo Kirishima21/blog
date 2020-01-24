@@ -1,6 +1,6 @@
 import React from 'react'
 
-class ItemCard extends React.Component {
+class ContactItemCard extends React.Component {
 
   constructor(props) {
     super(props);
@@ -23,4 +23,4 @@ class ItemCard extends React.Component {
   }
 }
 
-export default ItemCard;
+export default ContactItemCard;
