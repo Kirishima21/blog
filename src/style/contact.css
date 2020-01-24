@@ -1,0 +1,67 @@
+div.contactAria {
+}
+
+div.itemCard {
+    width: 30vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #1aacff;
+    display: flex;
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+div.iconAria {
+    flex: 3 0;
+}
+
+div.textAria {
+    flex: 7 0;
+    margin: auto;
+    text-align: left;
+}
+
+img.icon {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+/*解像度が低い場合の設定*/
+
+@media screen and (max-width: 1600px) {
+
+    div.itemCard {
+        margin: auto;
+        padding: 10px;
+        background-color: #1aacff;
+        display: flex;
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    div.itemCard {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        background-color: #1aacff;
+        display: flex;
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+}
+
