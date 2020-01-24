@@ -28,7 +28,7 @@ class Contact extends React.Component {
         })}
         <div className="itemCard">
           <div className="iconAria">
-            <img className="icon" src="http://localhost:3000/mail.png"/>
+            <img className="icon" src="https://kirishima21.github.io/blog/mail.png"/>
           </div>
           <div className="textAria">
             <div className="mail">Gmail：ﾅｲｼｮﾀﾞﾖ！</div>
