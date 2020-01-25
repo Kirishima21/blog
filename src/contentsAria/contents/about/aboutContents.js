@@ -20,7 +20,7 @@ const aboutContents = [
   {
     itemCardColor: "green",
     title: "所在地",
-    contents:"日本",
+    contents: "日本",
     supplement: "大体神奈川にいるけど長期休みは、千葉、東京、埼玉を行ったり来たりしてる"
   },
   {

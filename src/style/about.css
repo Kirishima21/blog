@@ -1,12 +1,12 @@
 div.red {
-     width: 30vw;
-     margin: auto;
-     padding: 10px;
-     background-color: rgba(255, 0, 0, 0.51);
+    width: 30vw;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.51);
 
-     border-radius: 10px;
-     -webkit-border-radius: 10px;
-     -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
 }
 
 div.orange {
@@ -80,11 +80,11 @@ div.textAria {
     text-align: center;
 }
 
-div.title{
+div.title {
     font-size: 150%;
 }
 
-div.name{
+div.name {
     font-size: 120%;
 }
 

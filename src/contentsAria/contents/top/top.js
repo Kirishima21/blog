@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Top extends React.Component{
+class Top extends React.Component {
 
   constructor(props) {
     super(props);

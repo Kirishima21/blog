@@ -1,9 +1,9 @@
 import React from 'react'
 
-class AboutItemCard extends React.Component{
+class AboutItemCard extends React.Component {
 
   render() {
-    return(
+    return (
       <div className={this.props.itemCardColor}>
         <div className="textAria">
           <div className="title">{this.props.title}</div>

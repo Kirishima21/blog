@@ -1,12 +1,13 @@
 import React from "react";
 
-class SubAria extends React.Component{
-  constructor(props){
+class SubAria extends React.Component {
+  constructor(props) {
     super(props);
   }
-  render(){
-    return(
-      <div className="SubAria" >SubAria</div>
+
+  render() {
+    return (
+      <div className="SubAria">SubAria</div>
     )
   }
 }

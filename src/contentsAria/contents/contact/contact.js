@@ -11,7 +11,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="contactAria">
-        <br />
+        <br/>
         {accountData.map((data) => {
           return (
             <div>

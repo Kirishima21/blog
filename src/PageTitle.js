@@ -4,10 +4,11 @@ class PageTitle extends React.Component {
   constructor(props) {
     super(props);
   }
+
   render() {
     return (
       <div>
-        <img className="titleImage" src="title.svg" />
+        <img className="titleImage" src="title.svg"/>
       </div>
     )
   }
