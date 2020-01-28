@@ -32,8 +32,8 @@ class Contact extends React.Component {
           </div>
           <div className="textAria">
             <div className="mail">Gmail：ﾅｲｼｮﾀﾞﾖ！</div>
-            <div className="mail">Mail：mail@mail.kirishima.cloud</div>
-            <div className="mail">mastdon関連：mastodon@mail.kirishima.cloud</div>
+            <div className="mail">Mail：hello@krsm.me</div>
+            <div className="mail">mastdon関連：mastodon@krsm.me</div>
           </div>
         </div>
       </div>
